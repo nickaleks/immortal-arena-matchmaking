@@ -57,7 +57,13 @@ Returns: Map of lobbies json
 
 ```/join?lobby_id=&address=```
 
-Returns: Lobby json
+Returns: "Added to Lobby" string
+
+#### Leave Lobby
+
+```/leave?lobby_id=&address=```
+
+Returns: "Removed from lobby" string
 
 #### Delete Lobby
 
