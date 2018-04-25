@@ -70,3 +70,15 @@ Returns: "Removed from lobby" string
 ```/delete?lobby_id=```
 
 Returns: Lobby json
+
+### Player Ready
+
+```/ready?lobby_id=&address=```
+
+Returns: Lobby json
+
+### Player not Ready
+
+```/ready?lobby_id=&address=```
+
+Returns: Lobby json
