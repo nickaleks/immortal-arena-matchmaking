@@ -1,6 +1,7 @@
 package main
 
 import (
+	"log"
 	"strconv"
 	"sync/atomic"
 	"encoding/json"
@@ -71,6 +72,7 @@ func getLobby(w http.ResponseWriter, r *http.Request) {
 func getAllLobbies(w http.ResponseWriter, r *http.Request) {
 	json, err := json.Marshal(lobbies)
 	if err != nil {
+		log.Println(err);
 		w.Write([]byte("Internal server error"))
 		return
 	}

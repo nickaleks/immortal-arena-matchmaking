@@ -79,6 +79,6 @@ Returns: Lobby json
 
 ### Player not Ready
 
-```/ready?lobby_id=&address=```
+```/unready?lobby_id=&address=```
 
 Returns: Lobby json
